@@ -13,4 +13,4 @@ client.once("ready", () => {
   console.log(`2Face is online as ${client.user.tag}`);
 });
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
